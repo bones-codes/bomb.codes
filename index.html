@@ -123,7 +123,7 @@
 <p><strong>Images</strong> ––– <a id="images" href="index.html#images---ratios">Ratios</a></p>
 
 <p>All images are titled by their pixel ratio, i.e. 10K = 10,000x10,000 pixels. Most of the formats include both Grayscale (single-bit depth) and RGB (8-bit depth) options.</p>
-<p>To calculate how much memory an image will require to render, simply multiply the pixel ratio by the bit-depth –– the 300K 8-bit (RGB) image will require about 90GB (300,000 x 300,000 x 1 byte = 90,000,000,000 bytes).</p>
+<p>To calculate how much memory an image will require to render, simply multiply the pixel ratio by the bit-depth –– a 50Kx50K pixel, 8-bit (RGB) image will require about 2.5GB (50,000 x 50,000 x 1 byte = 250,000,000 bytes).</p>
 
 <table>
     <tr>
@@ -368,32 +368,32 @@
         <th>Ratio</th>
     </tr>
     <tr>
-        <td><a href="">JPEG 2000</a></td>
+        <td><a href="https://jpeg.org/jpeg2000/">JPEG 2000</a></td>
         <td>552B</td>
         <td>181159:1</td>
     </tr>
     <tr>
-        <td><a href="">ZopfliPNG</a></td>
+        <td><a href="https://github.com/google/zopfli">ZopfliPNG</a></td>
         <td>12KB</td>
         <td>8138:1</td>
     </tr>
     <tr>
-        <td><a href="">GIF</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/GIF">GIF</a></td>
         <td>68KB</td>
         <td>1436:1</td>
     </tr>
     <tr>
-        <td><a href="">TIF</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Tagged_Image_File_Format">TIF</a></td>
         <td>292KB</td>
         <td>334:1</td>
     </tr>
     <tr>
-        <td><a href="">PNG</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a></td>
         <td>316KB</td>
         <td>309:1</td>
     </tr>
     <tr>
-        <td><a href="">JPEG</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/JPEG">JPEG</a></td>
         <td>586KB</td>
         <td>167:1</td>
     </tr>
@@ -416,12 +416,12 @@
         <td>1427411:1</td>
     </tr>
     <tr>
-        <td><a href="">brotli</a></a><a id="brotli---ratio" href="#brotli"><sup>3</sup></a></td>
+        <td><a href="https://github.com/google/brotli">brotli</a></a><a id="brotli---ratio" href="#brotli"><sup>3</sup></a></td>
         <td>27KB</td>
         <td>387844:1</td>
     </tr>
     <tr>
-        <td><a href="">LZMA</a><a id="lzma---ratio" href="#lzma"><sup>4</sup></a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm">LZMA</a><a id="lzma---ratio" href="#lzma"><sup>4</sup></a></td>
         <td>1.5MB</td>
         <td>7089:1</td>
     </tr>
@@ -431,7 +431,7 @@
         <td>1029:1</td>
     </tr>
     <tr>
-        <td><a href="">Zopfli</a><a id="zopfli---ratio" href="#zopfli"><sup>1</sup></a></td>
+        <td><a href="https://github.com/google/zopfli">Zopfli</a><a id="zopfli---ratio" href="#zopfli"><sup>1</sup></a></td>
         <td>10.3MB</td>
         <td>1017:1</td>
     </tr>
@@ -439,11 +439,11 @@
 
 <p>[<a id="zopfli" href="#zopfli---ratio">1</a>] Zopfli binary restricts content to 2GB.
 <br>
-[<a id="bzip2" href="#bzip2---ratio">2</a>] Bzip2 is supported by <a href="">Lighttpd</a>.
+[<a id="bzip2" href="#bzip2---ratio">2</a>] Bzip2 is supported by <a href="https://www.lighttpd.net/">Lighttpd</a> and some experimental WebSocket compression extensions.
 <br>
-[<a id="brotli" href="#brotli---ratio">3</a>] Brotli is supported in <a href="">Firefox 44</a> and soon <a href="">Chrome</a> –– (currently only for HTTPS).
+[<a id="brotli" href="#brotli---ratio">3</a>] Brotli is supported in <a href="http://caniuse.com/#feat=brotli">Firefox 44</a> and soon Chrome –– (currently only for HTTPS).
 <br>
-[<a id="lzma" href="#lzma---ratio">4</a>] LZMA is supported in <a href="">Opera beta 33</a>.</p>
+[<a id="lzma" href="#lzma---ratio">4</a>] LZMA is supported in Opera 20.</p>
 
 <!--<hr>
 
