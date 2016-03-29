@@ -16,7 +16,6 @@
     <div class="wrapper">
       <header>
         <h1>bomb.codes</h1>
-        <p></p>
 
         <p class="view"><a href="https://github.com/bones-codes/bombs">View the Project on GitHub <small>bones-codes/bombs</small></a></p>
 
@@ -33,7 +32,7 @@
 
 <hr>
 
-<p><strong>Archives</strong></p>
+<p><strong>Archives</strong> ––– <a id="archives" href="index.html#archives---ratios">Ratios</a></p>
 
 <table>
     <tr>
@@ -119,52 +118,12 @@
     </tr>
 </table>
 
-<!--<p>Ratios calculated from a zero-generated 10GB file: <code>dd if=/dev/zero of=10GB bs=1024 count=0 seek=$[1024*10000]</code>
-</p>
-<table>
-    <tr>
-        <th>Format</th>
-        <th>Size</th>
-        <th>Compression Ratio</th>
-    </tr>
-    <tr>
-        <td><a href="http://www.bzip.org/">bzip2</a></td>
-        <td>7KB</td>
-        <td>1427411:1</td>
-    </tr>
-    <tr>
-        <td><a href="https://code.google.com/archive/p/xar/">xar</a> (bzip2)</td>
-        <td>9KB</td>
-        <td>1198921:1</td>
-    </tr>
-    <tr>
-        <td><a href="http://www.7-zip.org/7z.html">7z</a></td>
-        <td>1.5MB</td>
-        <td>6848:1</td>
-    </tr>
-    <tr>
-        <td><a href="http://tukaani.org/xz/format.html">xz</a></td>
-        <td>1.5MB</td>
-        <td>6875:1</td>
-    </tr>
-    <tr>
-        <td><a href="https://www.gnu.org/software/gzip/">Gzip</a></td>
-        <td>10.2MB</td>
-        <td>1029:1</td>
-    </tr>
-    <tr>
-        <td><a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a></td>
-        <td>10.2MB</td>
-        <td>1029:1</td>
-    </tr>
-    <tr>
-        <td><a href="https://cyan4973.github.io/lz4/">LZ4</a></td>
-        <td>41.2MB</td>
-        <td>258:1</td>
-    </tr>
-</table>-->
 
-<p><strong>Images</strong></p>
+<br>
+<p><strong>Images</strong> ––– <a id="images" href="index.html#images---ratios">Ratios</a></p>
+
+<p>All images are titled by their pixel ratio, i.e. 10K = 10,000x10,000 pixels. Most of the formats include both Grayscale (single-bit depth) and RGB (8-bit depth) options.</p>
+<p>To calculate how much memory an image will require to render, simply multiply the pixel ratio by the bit-depth --- the 300K 8-bit (RGB) image will require about 90GB (300,000 x 300,000 x 1 byte = 90,000,000,000 bytes).</p>
 
 <table>
     <tr>
@@ -235,9 +194,8 @@
 </table>
 <p><a href="images/images.zip">Download All</a></p>
 
-<hr>
-
-<p><strong>HTTP</strong></p>
+<br>
+<p><strong>HTTP</strong> ––– <a id="http" href="index.html#http---ratios">Ratios</a></p>
 
 <table>
     <tr>
@@ -282,15 +240,16 @@
 </table>
 <p><a href="http/http.zip">Download All</a></p>
 
-<hr>
+<!--
 
+<br>
 <p><strong>PGP</strong></p>
 
 <p>All gpg compressed files have been zipped with both the private and public key used for encryption. The zip compression should be removed before testing.</p>
 
 <table>
     <tr>
-        <td><a href="pgp/gpg.zip">bzip2</a></td>
+        <td>Format</td>
         <td><a href="pgp/10GB.zip">–</a></td>
         <td><a href="pgp/30GB.zip">–</a></td>
         <td><a href="pgp/50GB.zip">–</a></td>
@@ -298,8 +257,37 @@
         <td><a href="pgp/200GB.zip">–</a></td>
         <td><a href="pgp/300GB.zip">–</a></td>
     </tr>
+    <tr>
+        <td><a href="pgp/bzip2.zip">bzip2</a></td>
+        <td><a href="pgp/10GB/10GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/30GB/30GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/50GB/50GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/100GB/100GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/200GB/200GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/300GB/300GB.bzip2.zip">–</a></td>
+    </tr>
+    <tr>
+        <td><a href="pgp/zip.zip">ZIP</a></td>
+        <td><a href="pgp/10GB.zip.zip">–</a></td>
+        <td><a href="pgp/30GB.zip.zip">–</a></td>
+        <td><a href="pgp/50GB.zip.zip">–</a></td>
+        <td><a href="pgp/100GB.zip.zip">–</a></td>
+        <td><a href="pgp/200GB.zip.zip">–</a></td>
+        <td><a href="pgp/300GB.zip.zip">–</a></td>
+    </tr>
+    <tr>
+        <td><a href="pgp/zlib.zip">ZLIB</a></td>
+        <td><a href="pgp/10GB.zlib.zip">–</a></td>
+        <td><a href="pgp/30GB.zlib.zip">–</a></td>
+        <td><a href="pgp/50GB.zlib.zip">–</a></td>
+        <td><a href="pgp/100GB.zlib.zip">–</a></td>
+        <td><a href="pgp/200GB.zlib.zip">–</a></td>
+        <td><a href="pgp/300GB.zlib.zip">–</a></td>
+    </tr>
 </table>
 <p><a href="pgp/gpg.zip">Download All</a></p>
+-->
+<br>
 <hr>
 <h3>
 <a id="resources" class="anchor" href="#resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Resources</h3>
@@ -310,15 +298,193 @@
       <li><a href="https://blog.silentsignal.eu/2016/02/10/youre-not-looking-at-the-big-picture/">You’re not looking at the big picture</a></li>
 </ul>
 
+<br>
 <hr>
-
 <h3>
-<a id="license--disclaimer" class="anchor" href="#license--disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License + Disclaimer</h3>
+<a id="ratios" class="anchor" href="#ratios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compression Ratios</h3>
+<p></p>
+<p><strong>Archives</strong> ––– <a id="archives---ratios" href="index.html#archives">Bombs</a></p>
+    
+<p>Ratios calculated from a zero-generated 10GB file. All ratios are approximations.</p>
 
-<p>The whole project is available under MIT license, see <a href="LICENSE">LICENSE</a>.</p> 
-<p>Use of these files is at your own risk --- I am not responsible for any harm that these files cause your application, system, or anything else. </p>
+<table>
+    <tr>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Ratio</th>
+    </tr>
+    <tr>
+        <td><a href="http://www.bzip.org/">bzip2</a></td>
+        <td>7KB</td>
+        <td>1427411:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://code.google.com/archive/p/xar/">xar</a><a id="xar---ratio" href="#xar"><sup>1</sup></a></td>
+        <td>9KB</td>
+        <td>1198921:1</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.7-zip.org/7z.html">7z</a></td>
+        <td>1.5MB</td>
+        <td>6848:1</td>
+    </tr>
+    <tr>
+        <td><a href="http://tukaani.org/xz/format.html">xz</a></td>
+        <td>1.5MB</td>
+        <td>6875:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/RAR_(file_format)">RAR</a></td>
+        <td>5.2MB</td>
+        <td>2003:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.gnu.org/software/gzip/">Gzip</a></td>
+        <td>10.2MB</td>
+        <td>1029:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a></td>
+        <td>10.2MB</td>
+        <td>1029:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://cyan4973.github.io/lz4/">LZ4</a></td>
+        <td>41.2MB</td>
+        <td>258:1</td>
+    </tr>
+</table>
+<p>[<a id="xar" href="#xar---ratio">1</a>] Ratio from the xar's bzip2 implementation which gets better ratios for highly compressable content than the default (Gzip).</p> 
+
+<br>
+<p><strong>Images</strong> ––– <a id="images---ratios" href="index.html#images">Bombs</a></p>
+
+<p>Ratios calculated from an 10Kx10K, 8-bit single-color image (about 95MB of RAM).</p>
+
+<table>
+    <tr>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Ratio</th>
+    </tr>
+    <tr>
+        <td><a href="">JPEG 2000</a></td>
+        <td>552B</td>
+        <td>181159:1</td>
+    </tr>
+    <tr>
+        <td><a href="">ZopfliPNG</a></td>
+        <td>12KB</td>
+        <td>8138:1</td>
+    </tr>
+    <tr>
+        <td><a href="">GIF</a></td>
+        <td>68KB</td>
+        <td>1436:1</td>
+    </tr>
+    <tr>
+        <td><a href="">TIF</a></td>
+        <td>292KB</td>
+        <td>334:1</td>
+    </tr>
+    <tr>
+        <td><a href="">PNG</a></td>
+        <td>316KB</td>
+        <td>309:1</td>
+    </tr>
+    <tr>
+        <td><a href="">JPEG</a></td>
+        <td>586KB</td>
+        <td>167:1</td>
+    </tr>
+</table>
+
+<br>
+<p><strong>HTTP</strong> ––– <a id="http---ratios" href="index.html#http">Bombs</a></p>
+
+<p>Ratios calculated from a zero-generated 10GB HTML file. All ratios are approximations.</p>
+
+<table>
+    <tr>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Ratio</th>
+    </tr>
+    <tr>
+        <td><a href="https://www.gnu.org/software/gzip/">Gzip</a></td>
+        <td>10.2MB</td>
+        <td>1029:1</td>
+    </tr>
+    <tr>
+        <td><a href="">Zopfli</a><a id="zopfli---ratio" href="#zopfli"><sup>1</sup></a></td>
+        <td>10.3MB</td>
+        <td>1017:1</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.bzip.org/">bzip2</a><a id="bzip2---ratio" href="#bzip2"><sup>2</sup></a></td>
+        <td>7KB</td>
+        <td>1427411:1</td>
+    </tr>
+    <tr>
+        <td><a href="">brotli</a></a><a id="brotli---ratio" href="#brotli"><sup>3</sup></a></td>
+        <td>27KB</td>
+        <td>387844:1</td>
+    </tr>
+    <tr>
+        <td><a href="">LZMA</a><a id="lzma---ratio" href="#lzma"><sup>4</sup></a></td>
+        <td>1.5MB</td>
+        <td>7089:1</td>
+    </tr>
+</table>
+
+<p>[<a id="zopfli" href="#zopfli---ratio">1</a>] Zopfli binary restricts content to 2GB.
+<br>
+[<a id="bzip2" href="#bzip2---ratio">2</a>] Bzip2 is supported by <a href="">Lighttpd</a>.
+<br>
+[<a id="brotli" href="#brotli---ratio">3</a>] Brotli is supported in <a href="">Firefox 44</a> and soon <a href="">Chrome</a> –– (currently only for HTTPS).
+<br>
+[<a id="lzma" href="#lzma---ratio">4</a>] LZMA is supported in <a href="">Opera beta 33</a>.</p>
+
+<!--<hr>
+
+<br>
+<p><strong>PGP</strong></p>
+
+<p>Ratios calculated from a zero-generated 10GB file. All ratios are approximations.</p>
+
+<table>
+    <tr>
+        <th>Format</th>
+        <th>Size</th>
+        <th>Ratio</th>
+    </tr>
+    <tr>
+        <td><a href="http://www.bzip.org/">bzip2</a></td>
+        <td>13KB</td>
+        <td>825390:1</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Zip_(file_format)">ZIP</a></td>
+        <td>12.8MB</td>
+        <td>816:1</td>
+    </tr>
+    <tr>
+        <td><a href="">ZLIB</a></td>
+        <td>13.2MB</td>
+        <td>797:1</td>
+    </tr>
+</table>-->
       </section>
       <footer>
+        <hr>
+        <strong><a id="license--disclaimer" class="anchor" href="#license--disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License + Disclaimer</strong>
+        <br>
+        <br>
+        <p>The whole project is available under MIT license, see <a href="LICENSE">LICENSE</a>.</p> 
+        <p>Use of these files is at your own risk --- I am not responsible for any harm that these files cause your application, system, or anything else. </p>
+
+        <hr>
+
         <p>This project is maintained by <a href="https://github.com/bones-codes">bones-codes</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
