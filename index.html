@@ -28,7 +28,8 @@
       </header>
       <section>
 <p>A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. The following files can be used to test whether an application is vulnerable to this type of attack. </p>
-<p>Files marked with an asterisk (*) have been bzipped to work around Github's 50MB file upload restriction. Remove the bzip2 encoding prior to testing.</p>
+<p>When testing, it's always better to start small and work your way up. Starting with the largest file available can seriously harm an application or system --- so use these bombs with caution.</p>
+<p>All files have been bzipped to work around Github's 50MB file upload restriction. Groups of files have been zipped then bzipped. Remove the both encodings prior to testing.</p>
 
 <hr>
 
@@ -37,15 +38,15 @@
 <table>
     <tr>
         <th>Format</th>
-        <th><a href="archives/10GB.zip">10GB</a></th>
-        <th><a href="archives/30GB.zip">30GB</a></th>
-        <th><a href="archives/50GB.zip">50GB</a></th>
-        <th><a href="archives/100GB.zip">100GB</a></th>
-        <th><a href="archives/200GB.zip">200GB</a></th>
-        <th><a href="archives/300GB.zip">300GB</a></th>
+        <th><a href="archives/10GB.zip.bz2">10GB</a></th>
+        <th><a href="archives/30GB.zip.bz2">30GB</a></th>
+        <th><a href="archives/50GB.zip.bz2">50GB</a></th>
+        <th><a href="archives/100GB.zip.bz2">100GB</a></th>
+        <th><a href="archives/200GB.zip.bz2">200GB</a></th>
+        <th><a href="archives/300GB.zip.bz2">300GB</a></th>
     </tr>
     <tr>
-        <td><a href="archives/bz2.zip">bzip2</a></td>
+        <td><a href="archives/bz2.zip.bz2">bzip2</a></td>
         <td><a href="archives/10GB/10GB.bz2">–</a></td>
         <td><a href="archives/30GB/30GB.bz2">–</a></td>
         <td><a href="archives/50GB/50GB.bz2">–</a></td>
@@ -54,67 +55,67 @@
         <td><a href="archives/300GB/300GB.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/xar.zip">xar</a></td>
-        <td><a href="archives/10GB/10GB.xar">–</a></td>
-        <td><a href="archives/30GB/30GB.xar">–</a></td>
-        <td><a href="archives/50GB/50GB.xar">–</a></td>
-        <td><a href="archives/100GB/100GB.xar">–</a></td>
-        <td><a href="archives/200GB/200GB.xar">–</a></td>
-        <td><a href="archives/300GB/300GB.xar">–</a></td>
+        <td><a href="archives/xar.zip.bz2">xar</a></td>
+        <td><a href="archives/10GB/10GB.xar.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.xar.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.xar.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.xar.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.xar.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.xar.bz2">–</a></td>
     </tr>
     <tr>
         <td><!--<a href="archives/7z.zip">-->7z<!--</a>--></td>
-        <td><a href="archives/10GB/10GB.7z">–</a></td>
-        <td><a href="archives/30GB/30GB.7z">–</a></td>
-        <td><a href="archives/50GB/50GB.7z">–</a></td>
-        <td><a href="archives/100GB/100GB.7z">–</a></td>
-        <td><a href="archives/200GB/200GB.7z">–</a></td>
-        <td><a href="archives/300GB/300GB.7z">–</a></td>
+        <td><a href="archives/10GB/10GB.7z.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.7z.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.7z.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.7z.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.7z.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.7z.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/xz.zip">xz</a></td>
-        <td><a href="archives/10GB/10GB.xz">–</a></td>
-        <td><a href="archives/30GB/30GB.xz">–</a></td>
-        <td><a href="archives/50GB/50GB.xz">–</a></td>
-        <td><a href="archives/100GB/100GB.xz">–</a></td>
-        <td><a href="archives/200GB/200GB.xz">–</a></td>
-        <td><a href="archives/300GB/300GB.xz">–</a></td>
+        <td><a href="archives/xz.zip.bz2">xz</a></td>
+        <td><a href="archives/10GB/10GB.xz.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.xz.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.xz.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.xz.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.xz.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.xz.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/rar.zip">RAR</a></td>
-        <td><a href="archives/10GB/10GB.rar">–</a></td>
-        <td><a href="archives/30GB/30GB.rar">–</a></td>
-        <td><a href="archives/50GB/50GB.rar">–</a></td>
-        <td><a href="archives/100GB/100GB.rar.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/200GB/200GB.rar.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/300GB/300GB.rar.bz2">–</a><sup>*</sup></td>
+        <td><a href="archives/rar.zip.bz2">RAR</a></td>
+        <td><a href="archives/10GB/10GB.rar.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.rar.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.rar.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.rar.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.rar.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.rar.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/gz.zip">Gzip</a></td>
-        <td><a href="archives/10GB/10GB.gz">–</a></td>
-        <td><a href="archives/30GB/30GB.gz">–</a></td>
-        <td><a href="archives/50GB/50GB.gz">–</a></td>
-        <td><a href="archives/100GB/100GB.gz.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/200GB/200GB.gz.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/300GB/300GB.gz.bz2">–</a><sup>*</sup></td>
+        <td><a href="archives/gz.zip.bz2">Gzip</a></td>
+        <td><a href="archives/10GB/10GB.gz.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.gz.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.gz.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.gz.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.gz.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.gz.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/zip.zip">ZIP</a></td>
-        <td><a href="archives/10GB/10GB.zip">–</a></td>
-        <td><a href="archives/30GB/30GB.zip">–</a></td>
-        <td><a href="archives/50GB/50GB.zip">–</a></td>
-        <td><a href="archives/100GB/100GB.zip.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/200GB/200GB.zip.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/300GB/300GB.zip.bz2">–</a><sup>*</sup></td>
+        <td><a href="archives/zip.zip.bz2">ZIP</a></td>
+        <td><a href="archives/10GB/10GB.zip.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.zip.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.zip.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.zip.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.zip.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.zip.bz2">–</a></td>
     </tr>
     <tr>
-        <td><a href="archives/lz4.zip">LZ4</a></td>
-        <td><a href="archives/10GB/10GB.lz4">–</a></td>
-        <td><a href="archives/30GB/30GB.lz4.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/50GB/50GB.lz4.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/100GB/100GB.lz4.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/200GB/200GB.lz4.bz2">–</a><sup>*</sup></td>
-        <td><a href="archives/300GB/300GB.lz4.bz2">–</a><sup>*</sup></td>
+        <td><a href="archives/lz4.zip.bz2">LZ4</a></td>
+        <td><a href="archives/10GB/10GB.lz4.bz2">–</a></td>
+        <td><a href="archives/30GB/30GB.lz4.bz2">–</a></td>
+        <td><a href="archives/50GB/50GB.lz4.bz2">–</a></td>
+        <td><a href="archives/100GB/100GB.lz4.bz2">–</a></td>
+        <td><a href="archives/200GB/200GB.lz4.bz2">–</a></td>
+        <td><a href="archives/300GB/300GB.lz4.bz2">–</a></td>
     </tr>
 </table>
 
@@ -211,8 +212,8 @@
         <td><a href="http/10GB/10GB.gz">–</a></td>
         <td><a href="http/30GB/30GB.gz">–</a></td>
         <td><a href="http/50GB/50GB.gz">–</a></td>
-        <td><a href="http/100GB/100GB.gz.bz2">–</a><sup>*</sup></td>
-        <td><a href="http/200GB/200GB.gz.bz2">–</a><sup>*</sup></td>
+        <td><a href="http/100GB/100GB.gz.bz2">–</a></td>
+        <td><a href="http/200GB/200GB.gz.bz2">–</a></td>
     </tr>
     <tr>
         <td><a href="http/br.zip">br</a></td>
