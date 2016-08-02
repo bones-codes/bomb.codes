@@ -131,54 +131,6 @@
 <!---->
 
 <br>
-<p><strong>PGP</strong></p>
-
-<p>All gpg compressed files have been zipped with both the private and public key used for encryption. This zip encoding should be removed prior to testing.</p>
-
-<table>
-    <tr>
-        <th>Format</th>
-        <th><a href="pgp/10GB.zip">10GB</a></th>
-        <th><a href="pgp/30GB.zip">30GB</a></th>
-        <th><a href="pgp/50GB.zip">50GB</a></th>
-        <th><a href="pgp/100GB.zip">100GB</a></th>
-        <th><a href="pgp/200GB.zip">200GB</a></th>
-        <th><a href="pgp/300GB.zip">300GB</a></th>
-    </tr>
-    <tr>
-        <td><a href="pgp/bzip2.zip">bzip2</a></td>
-        <td><a href="pgp/10GB/10GB.bzip2.zip">–</a></td>
-        <td><a href="pgp/30GB/30GB.bzip2.zip">–</a></td>
-        <td><a href="pgp/50GB/50GB.bzip2.zip">–</a></td>
-        <td><a href="pgp/100GB/100GB.bzip2.zip">–</a></td>
-        <td><a href="pgp/200GB/200GB.bzip2.zip">–</a></td>
-        <td><a href="pgp/300GB/300GB.bzip2.zip">–</a></td>
-    </tr>
-    <tr>
-        <td><a href="pgp/zip.zip">ZIP</a></td>
-        <td><a href="pgp/10GB/10GB.zip.zip">–</a></td>
-        <td><a href="pgp/30GB/30GB.zip.zip">–</a></td>
-        <td><a href="pgp/50GB/50GB.zip.zip">–</a></td>
-        <td><a href="pgp/100GB/100GB.zip.zip">–</a></td>
-        <td><a href="pgp/200GB/200GB.zip.zip">–</a></td>
-        <td><a href="pgp/300GB/300GB.zip.zip">–</a></td>
-    </tr>
-    <tr>
-        <td><a href="pgp/zlib.zip">ZLIB</a></td>
-        <td><a href="pgp/10GB/10GB.zlib.zip">–</a></td>
-        <td><a href="pgp/30GB/30GB.zlib.zip">–</a></td>
-        <td><a href="pgp/50GB/50GB.zlib.zip">–</a></td>
-        <td><a href="pgp/100GB/100GB.zlib.zip">–</a></td>
-        <td><a href="pgp/200GB/200GB.zlib.zip">–</a></td>
-        <td><a href="pgp/300GB/300GB.zlib.zip">–</a></td>
-    </tr>
-</table>
-<p><a href="pgp/gpg.zip">Download All</a></p>
-<!---->
-
-<hr>
-
-<br>
 <p><strong>Images</strong> <!--––– <a id="images" href="index.html#images---ratios">Ratios</a>--></p>
 
 <p>All images are titled by their pixel ratio, i.e. 10K = 10,000x10,000 pixels. Most of the formats include both Grayscale (single-bit depth) and RGB (8-bit depth) options.</p>
@@ -279,6 +231,38 @@
 <p><a href="images/images.zip.bz2">Download All</a></p>
 
 <hr>
+<p>The following images' size headers (SOF0, IHDR) report large pixel dimensions, but the actual image data does not match --- either it is missing completely or is much shorter.</p>
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!--<td><a href="images/bad-size/.zip">Gist</a></td>-->
+        <td><a href="images/bad-size/badsize.jp2.zip">JP2</a></td>
+        <td><a href="images/bad-size/badsize.jpeg.zip">JPEG</a></td>
+        <td><a href="images/bad-size/badsize.png.zip">PNG</a></td>
+        <td><a href="images/bad-size/badsizes.zip">All</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 <br>
 <p><strong>HTTP</strong> <!--––– <a id="http" href="index.html#http---ratios">Ratios</a>--></p>
@@ -326,6 +310,53 @@
     </tr>
 </table>
 <p><a href="http/http.zip.bz2">Download All</a></p>
+<!---->
+
+<br>
+<hr>
+<p><strong>PGP</strong></p>
+
+<p>All gpg compressed files have been zipped with both the private and public key used for encryption --- this zip encoding should be removed prior to testing.</p>
+
+<table>
+    <tr>
+        <th>Format</th>
+        <th><a href="pgp/10GB.zip">10GB</a></th>
+        <th><a href="pgp/30GB.zip">30GB</a></th>
+        <th><a href="pgp/50GB.zip">50GB</a></th>
+        <th><a href="pgp/100GB.zip">100GB</a></th>
+        <th><a href="pgp/200GB.zip">200GB</a></th>
+        <th><a href="pgp/300GB.zip">300GB</a></th>
+    </tr>
+    <tr>
+        <td><a href="pgp/bzip2.zip">bzip2</a></td>
+        <td><a href="pgp/10GB/10GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/30GB/30GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/50GB/50GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/100GB/100GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/200GB/200GB.bzip2.zip">–</a></td>
+        <td><a href="pgp/300GB/300GB.bzip2.zip">–</a></td>
+    </tr>
+    <tr>
+        <td><a href="pgp/zip.zip">ZIP</a></td>
+        <td><a href="pgp/10GB/10GB.zip.zip">–</a></td>
+        <td><a href="pgp/30GB/30GB.zip.zip">–</a></td>
+        <td><a href="pgp/50GB/50GB.zip.zip">–</a></td>
+        <td><a href="pgp/100GB/100GB.zip.zip">–</a></td>
+        <td><a href="pgp/200GB/200GB.zip.zip">–</a></td>
+        <td><a href="pgp/300GB/300GB.zip.zip">–</a></td>
+    </tr>
+    <tr>
+        <td><a href="pgp/zlib.zip">ZLIB</a></td>
+        <td><a href="pgp/10GB/10GB.zlib.zip">–</a></td>
+        <td><a href="pgp/30GB/30GB.zlib.zip">–</a></td>
+        <td><a href="pgp/50GB/50GB.zlib.zip">–</a></td>
+        <td><a href="pgp/100GB/100GB.zlib.zip">–</a></td>
+        <td><a href="pgp/200GB/200GB.zlib.zip">–</a></td>
+        <td><a href="pgp/300GB/300GB.zlib.zip">–</a></td>
+    </tr>
+</table>
+<p><a href="pgp/gpg.zip">Download All</a></p>
 
 <br>
 <hr>
