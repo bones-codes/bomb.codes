@@ -28,7 +28,7 @@
       </header>
       <section>
         <p>A decompression bomb is a file designed to crash or render useless the program or system reading it, i.e. a denial of service. The following files can be used to test whether an application is vulnerable to this type of attack. </p>
-        <p>When testing, it's always better to start small and work your way up. Starting with the largest file available can seriously harm an application or system --- so use these bombs with caution.</p>
+        <p>When testing, it's always better to start small and work your way up. Starting with the largest file available can seriously harm an application or system --- use these bombs with caution.</p>
         <p>All files have been bzipped to work around Github's 50MB file upload restriction. Groups of files have been zipped then bzipped. Remove these additional encodings prior to testing.</p>
         <blockquote>"When you see something that is technically sweet, you go ahead and do it and you argue about what to do about it only after you have had your technical success. That is the way it was with the atomic bomb." <p align="right"> – J. Robert Oppenheimer</p></blockquote>
           
@@ -231,7 +231,7 @@
 <p><a href="images/images.zip.bz2">Download All</a></p>
 
 <hr>
-<p>The following images' size headers (SOF0, IHDR) report large pixel dimensions, but the actual image data does not match --- either it is missing completely or is much shorter.</p>
+<p>The following images' size headers (SOF0, IHDR) report large pixel dimensions, but the actual image data does not match --- it is either missing completely or is much shorter.</p>
 <table>
     <tr>
         <td></td>
@@ -248,11 +248,11 @@
         <td></td>
     </tr>
     <tr>
+        brew install: libtiff freetype imagemagick
         <!--TODO<td><a href="images/bad-size/.zip">Gist</a></td>-->
-        <td><a href="images/bad-size/badsize.jp2.zip">JP2</a></td>
-        <td><a href="images/bad-size/badsize.jpeg.zip">JPEG</a></td>
-        <td><a href="images/bad-size/badsize.png.zip">PNG</a></td>
-        <td><a href="images/bad-size/badsizes.zip">All</a></td>
+        <td><a href="images/headers/badsize/badsize.jp2.zip">JP2</a></td>
+        <td><a href="images/headers/badsize/badsize.jpeg.zip">JPEG</a></td>
+        <td><a href="images/headers/badsize/badsize.png.zip">PNG</a></td>
         <td></td>
         <td></td>
         <td></td>
@@ -261,6 +261,7 @@
         <td></td>
         <td></td>
         <td></td>
+        <td><a href="images/headers/badsize/badsizes.zip">All</a></td>
     </tr>
 </table>
 
@@ -372,7 +373,6 @@
       <li><a href="http://research.swtch.com/zip">Zip Files All The Way Down</a></li>
 </ul>
 
-<!--
 <br>
 <hr>
 <h3>
@@ -399,7 +399,7 @@
         <td>1198921:1</td>
     </tr>
     <tr>
-        <td><a href="https://en.wikipedia.org/wiki/7z">7z</a></td>
+        <td><a href="https://en.wikipedia.org/wiki/7z">7z<a id="7z---ratio" href="#7z"><sup>2</sup></a></a></td>
         <td>1.5MB</td>
         <td>6848:1</td>
     </tr>
@@ -412,6 +412,11 @@
         <td><a href="https://en.wikipedia.org/wiki/RAR_(file_format)">RAR</a></td>
         <td>5.2MB</td>
         <td>2003:1</td>
+    </tr>
+    <tr>
+        <td>LZFSE</td>
+        <td>6.3MB</td>
+        <td>1625:1</td>
     </tr>
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/Gzip">Gzip</a></td>
@@ -430,7 +435,7 @@
     </tr>
 </table>
 <p>[<a id="xar" href="#xar---ratio">1</a>] Ratio calculated from the xar's bzip2 implementation which gets better ratios with highly compressable content than the default (Gzip).</p> 
-
+<p>[<a id="7z" href="#7x---ratio">1</a>] Ratio calculated from the 7z's gzip implementation which gets better ratios with highly compressable content than the default.</p> 
 <br>
 <p><strong>Images</strong> ––– <a id="images---ratios" href="index.html#images">Bombs</a></p>
 
@@ -488,7 +493,7 @@
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/Bzip2">bzip2</a><a id="bzip2---ratio" href="#bzip2"><sup>2</sup></a></td>
         <td>7KB</td>
-        <td>1427411:1</td>
+        <td>1427410:1</td>
     </tr>
     <tr>
         <td><a href="https://en.wikipedia.org/wiki/Brotli">brotli</a></a><a id="brotli---ratio" href="#brotli"><sup>3</sup></a></td>
@@ -516,9 +521,9 @@
 <br>
 [<a id="bzip2" href="#bzip2---ratio">2</a>] Bzip2 is supported by <a href="https://www.lighttpd.net/">Lighttpd</a> and some experimental WebSocket compression extensions.
 <br>
-[<a id="brotli" href="#brotli---ratio">3</a>] Brotli is supported in <a href="http://caniuse.com/#feat=brotli">Firefox 44</a> and soon Chrome –– (currently only for HTTPS).
+[<a id="brotli" href="#brotli---ratio">3</a>] Brotli is supported in <a href="http://caniuse.com/#feat=brotli">Firefox</a> and Chrome –– (currently only for HTTPS).
 <br>
-[<a id="lzma" href="#lzma---ratio">4</a>] LZMA is supported in Opera 20.</p>
+[<a id="lzma" href="#lzma---ratio">4</a>] LZMA is supported in Opera.</p>
 
 <hr>
 
@@ -548,7 +553,7 @@
         <td>13.2MB</td>
         <td>797:1</td>
     </tr>
-</table>-->
+</table>
       </section>
       <footer>
         <hr>
