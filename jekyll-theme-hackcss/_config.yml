@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: bomb.codes
+description: > # this means to ignore newlines until "baseurl:"
+  A minimalistic theme for Jekyll, based on hack.css
+repository: https://github.com/bones-codes/bombs
+baseurl: /jekyll-theme-hackcss  # the subpath of your site, e.g. /blog
+url: https://bomb.codes  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+#your_name: cara marie
+#email: cara.marie@me.com
+
+navigation:
+  - text: Home
+    url: /
+  - text: Bombs #Docs
+    url: /bombs #docs
+  - text: Mitigations #Examples
+    url: /mitigations #examples
+
+projects:
+  - name: git-secret
+    description: A bash-tool to store your private data inside a git repository.
+    link: https://sobolevn.github.io/git-secret
+    image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
+  - name: awesome-cryptography
+    description: A curated list of cryptography resources and links.
+    link: https://github.com/sobolevn/awesome-cryptography
+    image: https://pbs.twimg.com/profile_images/751426570607271937/vGxpniun_400x400.jpg
+  - name: ecto_autoslug_field
+    description: Automatically creates slugs for your Ecto models.
+    link: https://github.com/sobolevn/ecto_autoslug_field
+  - name: django-split-settings
+    description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
+    link: https://github.com/sobolevn/django-split-settings
+
+social:
+  - service: github
+    username: bones-codes
+    link: https://github.com/bones-codes
+  - service: twitter
+    username: bones_codes
+    link: https://twitter.com/bones_codes
+
+# Plugins
+gems:
+  - jekyll-seo-tag

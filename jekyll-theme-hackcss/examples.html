@@ -1,0 +1,93 @@
+---
+layout: default
+permalink: examples
+---
+
+<section>
+  <h1>Examples</h1>
+
+  <p>
+    This is more like an example page with different widgets.
+  </p>
+</section>
+
+<section>
+  <h2>Posts</h2>
+
+  {% for post in site.posts %}
+    {% assign nth = forloop.index0 | modulo:2 %}
+    <div class="media t-hackcss-media">
+
+      {% if nth == 0 %}
+      <div class="t-hackcss-media-shift media-left">
+        <img class="t-hackcss-media-image"
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
+      </div>
+      {% endif %}
+
+      <div class="media-body">
+        <div class="media-heading">
+          <span>{{ post.date | date_to_string }} &raquo;
+            {% if post.external_url %}
+              <a href="{{ post.external_url }}" target="_blank" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% else %}
+              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% endif %}
+          </span>
+        </div>
+        <div class="media-content">
+          {{ post.short_description }}
+        </div>
+      </div>
+
+      {% if nth == 1 %}
+      <div class="t-hackcss-media-shift media-right">
+        <img class="t-hackcss-media-image"
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
+      </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+
+<section>
+
+  <h2>Cards</h2>
+
+  <div class="grid t-hackcss-cards">
+
+    {% for project in site.projects %}
+
+    <div class="cell -6of12 t-hackcss-cards-cell">
+      <div class="card">
+        <header class="card-header">{{ project.name }}</header>
+        <div class="card-content">
+          <div class="inner">
+
+            {% if project.image %}
+            <img src="{{ project.image }}" class="t-hackcss-cards-image"
+                 alt="{{ project.name }}"
+                 title="{{ project.name }}" />
+            {% endif %}
+
+            <p class="t-hackcss-cards-text">{{ project.description }}</p>
+            <p class="t-hackcss-cards-link">
+              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
+                 {{ project.name }}
+               </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>
