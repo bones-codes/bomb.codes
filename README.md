@@ -17,6 +17,6 @@ __a note on usage__: To circumvent Github's 50MB file size upload restriction, g
 
 ### license + disclaimer
 
-The whole project is available under MIT license, see [LICENSE](LICENSE).
+The whole project is available under GNU AGPLv3 license, see [LICENSE](LICENSE).
 
-Use of these files is at your own risk --- I am not responsible for any harm that these files cause your application, system, or anything else.
+Use of these files is at your own risk –– I am not responsible for any harm that these files cause your application, system, or otherwise.
