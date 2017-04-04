@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bones
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bomb.codes
+  * I am bones (https://keybase.io/bones) on keybase.
+  * I have a public key ASBBwF_fqik_FBau2k2Yl29HGItm3cg6umKsiZOtk-yGfAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012077fc898d60a9aa0beaec0446031ac5de759d4c251789eb62274abfa54849f3530a",
+            "host": "keybase.io",
+            "kid": "012041c05fdfaa293f1416aeda4d98976f47188b66ddc83aba62ac8993ad93ec867c0a",
+            "uid": "d6d31104d1be4c4d10489ef907c22919",
+            "username": "bones"
+        },
+        "service": {
+            "hostname": "bomb.codes",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1484373940,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1484373911,
+        "hash": "88a7afb899a6afe876ae9558b6eba9efa52cb8f39fc6ca78204b1bb7edda44aab0320743a0019cfe3cf80150c0df946d9dd4f351d305e72314eebbdfd1e2d409",
+        "seqno": 799209
+    },
+    "prev": "7defabf8e90b31245851448cc24b5bfb5d5761040c5f121f6e64a2410a5a3be2",
+    "seqno": 29,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQcBf36opPxQWrtpNmJdvRxiLZt3IOrpirImTrZPshnwKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzdmYzg5OGQ2MGE5YWEwYmVhZWMwNDQ2MDMxYWM1ZGU3NTlkNGMyNTE3ODllYjYyMjc0YWJmYTU0ODQ5ZjM1MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDFjMDVmZGZhYTI5M2YxNDE2YWVkYTRkOTg5NzZmNDcxODhiNjZkZGM4M2FiYTYyYWM4OTkzYWQ5M2VjODY3YzBhIiwidWlkIjoiZDZkMzExMDRkMWJlNGM0ZDEwNDg5ZWY5MDdjMjI5MTkiLCJ1c2VybmFtZSI6ImJvbmVzIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJib21iLmNvZGVzIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODQzNzM5NDAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NDM3MzkxMSwiaGFzaCI6Ijg4YTdhZmI4OTlhNmFmZTg3NmFlOTU1OGI2ZWJhOWVmYTUyY2I4ZjM5ZmM2Y2E3ODIwNGIxYmI3ZWRkYTQ0YWFiMDMyMDc0M2EwMDE5Y2ZlM2NmODAxNTBjMGRmOTQ2ZDlkZDRmMzUxZDMwNWU3MjMxNGVlYmJkZmQxZTJkNDA5Iiwic2Vxbm8iOjc5OTIwOX0sInByZXYiOiI3ZGVmYWJmOGU5MGIzMTI0NTg1MTQ0OGNjMjRiNWJmYjVkNTc2MTA0MGM1ZjEyMWY2ZTY0YTI0MTBhNWEzYmUyIiwic2Vxbm8iOjI5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQMs/f9+YWZi8tguh6KDxzqWJG/Z4tpVsvP0dHljZ+hXlp4JYdY3ySXm8tzG5NNvYReRnPM6/k4K1c3M92HhekAaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBmIHU7L+z+VNFkiG2/QjyesiBRaQOkjISzltCRlGbv+qN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bones
+
+==================================================================
