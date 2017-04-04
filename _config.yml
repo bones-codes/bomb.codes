@@ -8,9 +8,9 @@
 # Site settings
 title: bomb.codes 
 description: > # this means to ignore newlines until "baseurl:"
-repository: https://github.com/temp-bones/tmp/ 
+repository: https://github.com/bones-codes/bombs 
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: https://temp-bones.github.io/tmp/  # the base hostname & protocol for your site
+url: https://bomb.codes  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
