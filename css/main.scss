@@ -35,6 +35,18 @@ $on-palm:          768px;
         "styles",
         "highlight"
 ;
+
+a{
+    color: #ff9800;
+    border-bottom: 1px solid #ff9800;
+}
+
+a:hover{
+    //background-color:#d32f2f;
+    background-color:#ff9800;
+    color:#fff
+}
+
 .barcode{
     white-space:pre; /* or pre-wrap if you want wrapping to still work. */
 }
