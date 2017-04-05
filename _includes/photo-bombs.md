@@ -12,4 +12,4 @@ To calculate how much memory an image will require to render, simply multiply th
 
 The following images' size headers (SOF0, IHDR) report large pixel dimensions, but the actual image data does not match --- it is either missing completely or is much shorter.
 
-| [JP2]({{ site.baseurl }}{% link images/evil-headers/badsize.jp2.zip %})   |  [JPEG]({{ site.baseurl }}{% link images/evil-headers/badsize.jpeg.zip %})   | [PNG]({{ site.baseurl }}{% link images/evil-headers/badsize.png.zip %})                                   | [All]({{ site.baseurl }}{% link images/evil-headers/badsizes.zip %})   |
+| [JP2](https://github.com/bones-codes/bombs/raw/master/images/evil-headers/IHDR-badsize.jp2)   |  [JPEG]({{ site.baseurl }}{% link images/evil-headers/badsize.jpeg.zip %})   | [PNG]({{ site.baseurl }}{% link images/evil-headers/badsize.png.zip %})                                   | [All]({{ site.baseurl }}{% link images/evil-headers/badsizes.zip %})   |
