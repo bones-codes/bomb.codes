@@ -1,4 +1,8 @@
 language: ruby
+bundler_args: --without benchmark:site:development
+script: script/cibuild
+cache: bundler
+language: ruby
 rvm:
  - 2.3.0
 
