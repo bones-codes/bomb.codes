@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-- 2.3.3
+ - 2.2
+ - jruby
+ - rbx-2
 
-# branch whitelist, only for GitHub Pages
 branches:
   only:
-  - gh-pages     # test the gh-pages branch
-
+    - gh-pages
