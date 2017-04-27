@@ -1,5 +1,4 @@
 require 'rake'
-require 'html/proofer'
 
 namespace :site do
   desc 'build and test the site'
