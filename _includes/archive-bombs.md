@@ -13,4 +13,4 @@
 
 The following file size headers report incorrect sizes for uncompressed content. All reported sizes for uncompressed content are 1 byte or smaller. Actual file size is 10GB.
 
-| [Gzip](https://github.com/bones-codes/bombs/raw/master/archives/evil-headers/10GB.gz)   | [ZIP](https://github.com/bones-codes/bombs/raw/master/archives/evil-headers/10GB.zip)                                   | [All](https://github.com/bones-codes/bombs/blob/master/archives/evil-headers.zip.bz2)   |
+| [Gzip](https://github.com/bones-codes/bombs/raw/master/archives/evil-headers/10GB.gz.bz2)   | [ZIP](https://github.com/bones-codes/bombs/raw/master/archives/evil-headers/10GB.zip.bz2)                                   | [All](https://github.com/bones-codes/bombs/raw/master/archives/evil-headers.zip.bz2)   |
